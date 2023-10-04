@@ -1,0 +1,60 @@
+:root {
+    --base-color: rgb(33,46,82);
+}
+
+primaryNav{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgb(210, 210, 210);
+    border-bottom: 2px solid rgb(210, 210, 210);
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    .left-nav{
+        padding-top: 8px;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 25px;
+        color: var(--base-color);
+        font-size: 13px;
+        
+        p{
+            margin-top: 1%;
+        }
+
+        button{
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: var(--base-color);
+            width: 120px;
+            word-spacing: 30px;
+            border-bottom: 2px solid var(--base-color);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            background-color: transparent;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            outline: none;
+            overflow: hidden;
+        }
+    }
+
+    .right-nav{
+        margin-right: 13px;
+        padding-top: 9px;
+
+        button{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(210, 210, 210);
+            border: 2px solid rgb(210, 210, 210);
+            background-color: transparent;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            outline: none;
+            overflow: hidden;
+            font-size: 13px;
+        }
+    }
+}
